@@ -1,0 +1,14 @@
+[project]
+name = "AS_GeminiCaptioning"
+description = "Node for image captioning for ComfyUI that builds a multimodal prompt from text inputs and an image, sends it to Google Gemini via the google-generativeai SDK, and returns the textual response"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["Pillow", "requests", "google-generativeai"]
+
+[project.urls]
+Repository = "https://github.com/svetozarov/AS_GeminiCaptioning"
+
+[tool.comfy]
+PublisherId = "svetozarov"
+DisplayName = "AS_GeminiCaptioning"
+Icon = ""
