@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="AS_GeminiCaptioning",
-    version="1.0.0",
-    description="Node for ComfyUI that builds a multimodal prompt from text inputs and an image, sends it to Google Gemini via the google-generativeai SDK, and returns the textual response.",
+    version="1.0.2",
+    description="A ComfyUI node that combines an image with simple text parameters to create a prompt, sends it to the Google Gemini API via the google-generativeai SDK, and returns the generated text response along with the original prompt and an execution log",
     author_email="art.svetozarov@gmail.com",
     url="https://github.com/svetozarov/AS_GeminiCaptioning", 
     packages=find_packages(),
