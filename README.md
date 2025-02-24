@@ -15,6 +15,15 @@ The AS_GeminiCaptioning node lets you generate a descriptive text prompt from an
 - **APY KEY PATH** (Required):  
   The file path to your API key needed for authenticating with the Google Gemini API.  
 
+- **GEMINI MODEL** (Required):  
+  Select the Gemini model that will process your request. Available options are:  
+  - Gemini 2.0 Flash  
+  - Gemini 2.0 Flash-Lite Preview  
+  - Gemini 1.5 Flash  
+  - Gemini 1.5 Flash-8B  
+  - Gemini 1.5 Pro  
+  *By default, "Gemini 1.5 Pro" is selected. This parameter ensures that the request is sent to the specified Gemini model.*
+
 - **PROMPT LENGTH** (Optional):  
   An approximate word count for the final prompt.  
   *If left empty, no word count guidance will be added to the prompt.*
