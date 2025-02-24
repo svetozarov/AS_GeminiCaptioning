@@ -57,7 +57,8 @@ The AS_GeminiCaptioning node lets you generate a descriptive text prompt from an
 - Pillow  
 - requests  
 - google-generativeai
-- ```sh
+  
+```sh
 pip install Pillow requests google-generativeai
 ```
 
